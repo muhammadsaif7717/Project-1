@@ -9,7 +9,7 @@
 }
 /* header */
 header{
-    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%),url(Resorces/nik-Yg0YZYIP8ak-unsplash.jpg);
+    background: linear-gradient(to top, rgba(0,0,0,0.7)50%, rgba(0,0,0,0.7)50%),url(Resorces/nik-Yg0YZYIP8ak-unsplash.jpg);
     height: 81vh;
     background-position: center;
     background-repeat: no-repeat;
@@ -19,7 +19,7 @@ header{
 /* nav bar */
 nav{
     height: 65px;
-    background-color: #0000007a;
+    background-color: #ffffff67;
     width: 100%;
 }
 nav>.logo{
@@ -41,7 +41,12 @@ nav>.logo>h1{
     color:  #fff;
     position: absolute;
 }
-
+nav>.logo> h1:hover{
+    transform: scale(1.09);
+}
+nav>.logo> img:hover{
+    transform: scale(1.09);
+}
 nav>.links{
     width: 70%;
     float: left;
@@ -91,4 +96,74 @@ nav>.links>ul>li>a:hover{
 }
 #dropdown:hover .dropdown-container{
     display: block;
+}
+
+/* nav done */
+.texts{
+    width: 700px;
+    margin: 0 auto;
+}
+
+.texts>h2{
+    margin-top: 40px;
+    color: #fff;
+    font-size: 80px;
+    margin-left: 50px;
+}
+.texts>p{
+    color: #fff;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 600px;
+}   
+
+header>.btn{
+    background-color: #ff7200;
+    border: none;
+    padding: 8px 13px;
+    border-radius: 10px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 50px;
+}
+header>.btn:hover{
+    background-color: #1a74e9;
+    transform: scale(1.1);
+}
+header> button>a{
+    text-decoration: none;
+    color: #fff;
+}
+
+/* section-items */
+.items{
+    height: 90vh;
+}
+.items> h1{
+    padding-top: 15px;
+    text-align: center;
+    font-size: 19px;
+}
+.items> h1::after{
+    content:' ';
+    display: block;
+    height: 3px;
+    background-color: #ff7200;
+    margin: 5px auto;
+    width: 150px;
+}
+
+
+
+
+/* footer */
+footer{
+    height: 50px;
+    background-color: rgb(148, 147, 147);
+}
+footer>h1{
+    padding-top: 15px;
+    text-align: center;
+    font-size: 15px;
 }

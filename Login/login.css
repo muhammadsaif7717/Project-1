@@ -32,7 +32,12 @@ nav>.logo>h1{
     color:  #fff;
     position: absolute;
 }
-
+nav>.logo> h1:hover{
+    transform: scale(1.09);
+}
+nav>.logo> img:hover{
+    transform: scale(1.09);
+}
 nav>.links{
     width: 70%;
     float: left;
@@ -82,4 +87,16 @@ nav>.links>ul>li>a:hover{
 }
 #dropdown:hover .dropdown-container{
     display: block;
+}
+
+
+/* footer */
+footer{
+    height: 50px;
+    background-color: rgb(148, 147, 147);
+}
+footer>h1{
+    padding-top: 15px;
+    text-align: center;
+    font-size: 15px;
 }
